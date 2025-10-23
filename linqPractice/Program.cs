@@ -11,15 +11,17 @@ namespace linqPractice
             Console.WriteLine("====================================");
             Console.WriteLine("   Welcome to the C# Practice Hub   ");
             Console.WriteLine("====================================");
-            Console.WriteLine("1️⃣  LINQ Demo");
-            Console.WriteLine("2️⃣  Collections & Generics Demo");
-            Console.WriteLine("3️⃣  OOP Demo");
-            Console.WriteLine("4️⃣  Delegates & Events Demo");
-            Console.WriteLine("5️⃣  File I/O Demo");
-            Console.WriteLine("6️⃣  Exception Handling Demo ");
-            Console.WriteLine("7️⃣  Async File I/O Demo ");
-            Console.WriteLine("8️⃣  Parallel File I/O Demo");
-            Console.WriteLine("9️⃣  Performance Comparison Demo");
+            Console.WriteLine("1️ LINQ Demo");
+            Console.WriteLine("2  Collections & Generics Demo");
+            Console.WriteLine("3️ OOP Demo");
+            Console.WriteLine("4️  Delegates & Events Demo");
+            Console.WriteLine("5️  File I/O Demo");
+            Console.WriteLine("6️  Exception Handling Demo ");
+            Console.WriteLine("7️ Async File I/O Demo ");
+            Console.WriteLine("8️  Parallel File I/O Demo");
+            Console.WriteLine("9️ Performance Comparison Demo");
+            Console.WriteLine("10  Collections Advanced Demo");
+            Console.WriteLine("11  Design Patterns Demo");
 
 
             Console.WriteLine("------------------------------------");
@@ -59,6 +61,8 @@ namespace linqPractice
                     break;
 
                 case "10":   CollectionsAdvancedDemo.Run(); break;
+
+                case "11":   DesignPatternsDemo.Run(); break;
 
 
 

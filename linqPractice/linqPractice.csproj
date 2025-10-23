@@ -47,6 +47,7 @@
     <Compile Include="CollectionsAdvancedDemo.cs" />
     <Compile Include="CollectionsAndGenericsDemo.cs" />
     <Compile Include="DelegatesAndEventsDemo.cs" />
+    <Compile Include="DesignPatternsDemo.cs" />
     <Compile Include="ExceptionHandlingDemo.cs" />
     <Compile Include="FileIODemo.cs" />
     <Compile Include="LinqDemo.cs" />
