@@ -22,6 +22,7 @@ namespace linqPractice
             Console.WriteLine("9️ Performance Comparison Demo");
             Console.WriteLine("10  Collections Advanced Demo");
             Console.WriteLine("11  Design Patterns Demo");
+            Console.WriteLine("12  Properties and Indexers Demo");
 
 
             Console.WriteLine("------------------------------------");
@@ -63,6 +64,8 @@ namespace linqPractice
                 case "10":   CollectionsAdvancedDemo.Run(); break;
 
                 case "11":   DesignPatternsDemo.Run(); break;
+
+                case "12": PropertiesAndIndexersDemo.Run(); break;
 
 
 

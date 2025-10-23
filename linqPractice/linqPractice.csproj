@@ -51,10 +51,12 @@
     <Compile Include="ExceptionHandlingDemo.cs" />
     <Compile Include="FileIODemo.cs" />
     <Compile Include="LinqDemo.cs" />
+    <Compile Include="NullableTypesDemo.cs" />
     <Compile Include="OOPDemo.cs" />
     <Compile Include="ParallelFileIODemo.cs" />
     <Compile Include="PerformanceComparisonDemo.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="PropertiesAndIndexersDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
