@@ -12,6 +12,7 @@ namespace linqPractice
             Console.WriteLine("====================================");
             Console.WriteLine("1️⃣  LINQ Demo");
             Console.WriteLine("2️⃣  Collections & Generics Demo");
+            Console.WriteLine("3️⃣  OOP Demo");
             Console.WriteLine("------------------------------------");
             Console.Write("👉 Enter your choice: ");
             var choice = Console.ReadLine();
@@ -27,6 +28,10 @@ namespace linqPractice
                 case "2":
                     CollectionsAndGenericsDemo.Run();
                     break;
+                case "3":
+                    OOPDemo.Run();
+                    break;
+
 
                 default:
                     Console.WriteLine("❌ Invalid choice! Please enter 1 or 2.");

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CollectionsAndGenericsDemo.cs" />
     <Compile Include="LinqDemo.cs" />
+    <Compile Include="OOPDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
