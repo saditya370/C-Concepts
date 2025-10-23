@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollectionsAndGenericsDemo.cs" />
+    <Compile Include="DelegatesAndEventsDemo.cs" />
     <Compile Include="LinqDemo.cs" />
     <Compile Include="OOPDemo.cs" />
     <Compile Include="Program.cs" />

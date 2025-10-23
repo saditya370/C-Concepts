@@ -13,6 +13,8 @@ namespace linqPractice
             Console.WriteLine("1️⃣  LINQ Demo");
             Console.WriteLine("2️⃣  Collections & Generics Demo");
             Console.WriteLine("3️⃣  OOP Demo");
+            Console.WriteLine("4️⃣  Delegates & Events Demo");
+
             Console.WriteLine("------------------------------------");
             Console.Write("👉 Enter your choice: ");
             var choice = Console.ReadLine();
@@ -31,6 +33,10 @@ namespace linqPractice
                 case "3":
                     OOPDemo.Run();
                     break;
+                case "4":
+                    DelegatesAndEventsDemo.Run();
+                    break;
+
 
 
                 default:
