@@ -43,12 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncFileIODemo.cs" />
+    <Compile Include="CollectionsAdvancedDemo.cs" />
     <Compile Include="CollectionsAndGenericsDemo.cs" />
     <Compile Include="DelegatesAndEventsDemo.cs" />
     <Compile Include="ExceptionHandlingDemo.cs" />
     <Compile Include="FileIODemo.cs" />
     <Compile Include="LinqDemo.cs" />
     <Compile Include="OOPDemo.cs" />
+    <Compile Include="ParallelFileIODemo.cs" />
+    <Compile Include="PerformanceComparisonDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,10 +1,11 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace linqPractice
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("====================================");
@@ -16,6 +17,10 @@ namespace linqPractice
             Console.WriteLine("4️⃣  Delegates & Events Demo");
             Console.WriteLine("5️⃣  File I/O Demo");
             Console.WriteLine("6️⃣  Exception Handling Demo ");
+            Console.WriteLine("7️⃣  Async File I/O Demo ");
+            Console.WriteLine("8️⃣  Parallel File I/O Demo");
+            Console.WriteLine("9️⃣  Performance Comparison Demo");
+
 
             Console.WriteLine("------------------------------------");
             Console.Write("👉 Enter your choice: ");
@@ -44,6 +49,17 @@ namespace linqPractice
                 case "6":
                     ExceptionHandlingDemo.Run();
                     break;
+                case "7": await AsyncFileIODemo.Run(); break;
+                case "8":
+                    await ParallelFileIODemo.Run();
+                    break;
+
+                case "9":
+                    await PerformanceComparisonDemo.Run();
+                    break;
+
+                case "10":   CollectionsAdvancedDemo.Run(); break;
+
 
 
 
