@@ -14,6 +14,8 @@ namespace linqPractice
             Console.WriteLine("2️⃣  Collections & Generics Demo");
             Console.WriteLine("3️⃣  OOP Demo");
             Console.WriteLine("4️⃣  Delegates & Events Demo");
+            Console.WriteLine("5️⃣  File I/O Demo");
+            Console.WriteLine("6️⃣  Exception Handling Demo ");
 
             Console.WriteLine("------------------------------------");
             Console.Write("👉 Enter your choice: ");
@@ -36,6 +38,14 @@ namespace linqPractice
                 case "4":
                     DelegatesAndEventsDemo.Run();
                     break;
+                case "5":
+                    FileIODemo.Run();
+                    break;
+                case "6":
+                    ExceptionHandlingDemo.Run();
+                    break;
+
+
 
 
 
