@@ -50,7 +50,7 @@
     <Compile Include="DesignPatternsDemo.cs" />
     <Compile Include="ExceptionHandlingDemo.cs" />
     <Compile Include="FileIODemo.cs" />
-    <Compile Include="LinqDemo.cs" />
+    <Compile Include="LinqDemo\LinqDemo.cs" />
     <Compile Include="NullableTypesDemo.cs" />
     <Compile Include="OOPDemo.cs" />
     <Compile Include="ParallelFileIODemo.cs" />
@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="LinqDemo\ReadMe.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
