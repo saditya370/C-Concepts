@@ -29,6 +29,7 @@ namespace linqPractice
             Console.WriteLine("16  Data Types and Memory Demo");
             Console.WriteLine("17  Value vs Reference Types Demo");
             Console.WriteLine("18  IEnumerable vs IQueryable Demo");
+            Console.WriteLine("19  Memory Allocation Demo");
 
 
 
@@ -86,6 +87,8 @@ namespace linqPractice
                 case "17": ValueVsReferenceDemo.Run(); break;
 
                 case "18": IEnumerableVsIQueryableDemo.Run(); break;
+
+                case "19": MemoryAllocationDemo.Run(); break;
 
 
 

@@ -55,6 +55,7 @@
     <Compile Include="GenericConstraintsDemo\GenericConstraintsDemo.cs" />
     <Compile Include="IEnumerableVsIQueryableDemo\IEnumerableVsIQueryableDemo.cs" />
     <Compile Include="LinqDemo\LinqDemo.cs" />
+    <Compile Include="MemoryAllocationDemo\MemoryAllocationDemo.cs" />
     <Compile Include="NullableTypesDemo\NullableTypesDemo.cs" />
     <Compile Include="OOPDemo\OOPDemo.cs" />
     <Compile Include="ParallelFileIODemo.cs" />
@@ -75,6 +76,7 @@
     <None Include="GenericConstraintsDemo\README %289%29.markdown" />
     <None Include="IEnumerableVsIQueryableDemo\README.markdown" />
     <None Include="LinqDemo\README.markdown" />
+    <None Include="MemoryAllocationDemo\README.markdown" />
     <None Include="NullableTypesDemo\README.markdown" />
     <None Include="OOPDemo\README.markdown" />
     <None Include="ValueVsReferenceDemo\README.markdown" />
