@@ -48,6 +48,7 @@
     <Compile Include="CollectionsAndGenericsDemo\CollectionsAndGenericsDemo.cs" />
     <Compile Include="DataTypesAndMemoryDemo\DataTypesAndMemoryDemo.cs" />
     <Compile Include="DelegatesAndEventsDemo\DelegatesAndEventsDemo.cs" />
+    <Compile Include="DependencyInjectionDemo\DependencyInjectionDemo.cs" />
     <Compile Include="DesignPatternsDemo.cs" />
     <Compile Include="ExceptionHandlingDemo.cs" />
     <Compile Include="ExtensionMethodsDemo\ExtensionMethodsDemo.cs" />
@@ -71,6 +72,7 @@
     <None Include="CollectionsAndGenericsDemo\README.markdown" />
     <None Include="DataTypesAndMemoryDemo\README.markdown" />
     <None Include="DelegatesAndEventsDemo\README.markdown" />
+    <None Include="DependencyInjectionDemo\README.markdown" />
     <None Include="ExtensionMethodsDemo\README.markdown" />
     <None Include="FileIODemo\README.markdown" />
     <None Include="GenericConstraintsDemo\README %289%29.markdown" />
