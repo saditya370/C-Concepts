@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsyncFileIODemo.cs" />
+    <Compile Include="AsyncFileIODemo\AsyncFileIODemo.cs" />
     <Compile Include="CollectionsAdvancedDemo.cs" />
     <Compile Include="CollectionsAndGenericsDemo\CollectionsAndGenericsDemo.cs" />
     <Compile Include="DelegatesAndEventsDemo\DelegatesAndEventsDemo.cs" />
@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="AsyncFileIODemo\README.markdown" />
     <None Include="CollectionsAndGenericsDemo\README.markdown" />
     <None Include="DelegatesAndEventsDemo\README.markdown" />
     <None Include="FileIODemo\README.markdown" />
