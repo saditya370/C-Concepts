@@ -52,7 +52,7 @@
     <Compile Include="FileIODemo.cs" />
     <Compile Include="LinqDemo\LinqDemo.cs" />
     <Compile Include="NullableTypesDemo.cs" />
-    <Compile Include="OOPDemo.cs" />
+    <Compile Include="OOPDemo\OOPDemo.cs" />
     <Compile Include="ParallelFileIODemo.cs" />
     <Compile Include="PerformanceComparisonDemo.cs" />
     <Compile Include="Program.cs" />
@@ -63,6 +63,7 @@
     <None Include="App.config" />
     <None Include="CollectionsAndGenericsDemo\README.markdown" />
     <None Include="LinqDemo\README.markdown" />
+    <None Include="OOPDemo\README.markdown" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
