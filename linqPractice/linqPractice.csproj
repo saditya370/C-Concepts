@@ -52,7 +52,7 @@
     <Compile Include="ExtensionMethodsDemo\ExtensionMethodsDemo.cs" />
     <Compile Include="FileIODemo\FileIODemo.cs" />
     <Compile Include="LinqDemo\LinqDemo.cs" />
-    <Compile Include="NullableTypesDemo.cs" />
+    <Compile Include="NullableTypesDemo\NullableTypesDemo.cs" />
     <Compile Include="OOPDemo\OOPDemo.cs" />
     <Compile Include="ParallelFileIODemo.cs" />
     <Compile Include="PerformanceComparisonDemo.cs" />
@@ -68,6 +68,7 @@
     <None Include="ExtensionMethodsDemo\README.markdown" />
     <None Include="FileIODemo\README.markdown" />
     <None Include="LinqDemo\README.markdown" />
+    <None Include="NullableTypesDemo\README.markdown" />
     <None Include="OOPDemo\README.markdown" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
