@@ -133,6 +133,7 @@ namespace linqPractice
     public class BaseStudent
     {
         public string Name { get; set; }
+
     }
 
     public class SpecialStudent : BaseStudent, IStudent

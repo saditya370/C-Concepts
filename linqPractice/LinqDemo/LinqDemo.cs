@@ -11,6 +11,11 @@ namespace linqPractice
         public int Age { get; set; }
         public int CourseId { get; set; }
         public double Marks { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Name}, Age {Age}";
+        }
     }
 
     class Course
