@@ -25,6 +25,7 @@ namespace linqPractice
             Console.WriteLine("12  Properties and Indexers Demo");
             Console.WriteLine("13  Extension Methods Demo");
             Console.WriteLine("14  Nullable Types Demo");
+            Console.WriteLine("15  Generic Constraints Demo");
 
 
 
@@ -74,6 +75,7 @@ namespace linqPractice
 
                 case "14": NullableTypesDemo.Run(); break;
 
+                case "15": GenericConstraintsDemo.Run(); break;
 
 
 

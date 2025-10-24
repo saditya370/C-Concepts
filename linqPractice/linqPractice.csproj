@@ -51,6 +51,7 @@
     <Compile Include="ExceptionHandlingDemo.cs" />
     <Compile Include="ExtensionMethodsDemo\ExtensionMethodsDemo.cs" />
     <Compile Include="FileIODemo\FileIODemo.cs" />
+    <Compile Include="GenericConstraintsDemo\GenericConstraintsDemo.cs" />
     <Compile Include="LinqDemo\LinqDemo.cs" />
     <Compile Include="NullableTypesDemo\NullableTypesDemo.cs" />
     <Compile Include="OOPDemo\OOPDemo.cs" />
@@ -67,6 +68,7 @@
     <None Include="DelegatesAndEventsDemo\README.markdown" />
     <None Include="ExtensionMethodsDemo\README.markdown" />
     <None Include="FileIODemo\README.markdown" />
+    <None Include="GenericConstraintsDemo\README %289%29.markdown" />
     <None Include="LinqDemo\README.markdown" />
     <None Include="NullableTypesDemo\README.markdown" />
     <None Include="OOPDemo\README.markdown" />
