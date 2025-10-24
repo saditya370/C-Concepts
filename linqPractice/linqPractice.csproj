@@ -49,6 +49,7 @@
     <Compile Include="DelegatesAndEventsDemo\DelegatesAndEventsDemo.cs" />
     <Compile Include="DesignPatternsDemo.cs" />
     <Compile Include="ExceptionHandlingDemo.cs" />
+    <Compile Include="ExtensionMethodsDemo\ExtensionMethodsDemo.cs" />
     <Compile Include="FileIODemo\FileIODemo.cs" />
     <Compile Include="LinqDemo\LinqDemo.cs" />
     <Compile Include="NullableTypesDemo.cs" />
@@ -64,6 +65,7 @@
     <None Include="AsyncFileIODemo\README.markdown" />
     <None Include="CollectionsAndGenericsDemo\README.markdown" />
     <None Include="DelegatesAndEventsDemo\README.markdown" />
+    <None Include="ExtensionMethodsDemo\README.markdown" />
     <None Include="FileIODemo\README.markdown" />
     <None Include="LinqDemo\README.markdown" />
     <None Include="OOPDemo\README.markdown" />
