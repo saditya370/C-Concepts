@@ -27,6 +27,7 @@ namespace linqPractice
             Console.WriteLine("14  Nullable Types Demo");
             Console.WriteLine("15  Generic Constraints Demo");
             Console.WriteLine("16  Data Types and Memory Demo");
+            Console.WriteLine("17  Value vs Reference Types Demo");
 
 
 
@@ -80,6 +81,8 @@ namespace linqPractice
                 case "15": GenericConstraintsDemo.Run(); break;
                 
                 case "16": DataTypesAndMemoryDemo.Run(); break;
+
+                case "17": ValueVsReferenceDemo.Run(); break;
 
 
 
