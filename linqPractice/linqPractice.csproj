@@ -46,6 +46,7 @@
     <Compile Include="AsyncFileIODemo\AsyncFileIODemo.cs" />
     <Compile Include="CollectionsAdvancedDemo.cs" />
     <Compile Include="CollectionsAndGenericsDemo\CollectionsAndGenericsDemo.cs" />
+    <Compile Include="DataTypesAndMemoryDemo\DataTypesAndMemoryDemo.cs" />
     <Compile Include="DelegatesAndEventsDemo\DelegatesAndEventsDemo.cs" />
     <Compile Include="DesignPatternsDemo.cs" />
     <Compile Include="ExceptionHandlingDemo.cs" />
@@ -65,6 +66,7 @@
     <None Include="App.config" />
     <None Include="AsyncFileIODemo\README.markdown" />
     <None Include="CollectionsAndGenericsDemo\README.markdown" />
+    <None Include="DataTypesAndMemoryDemo\README %2810%29.markdown" />
     <None Include="DelegatesAndEventsDemo\README.markdown" />
     <None Include="ExtensionMethodsDemo\README.markdown" />
     <None Include="FileIODemo\README.markdown" />
