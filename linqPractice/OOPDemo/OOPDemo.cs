@@ -177,7 +177,7 @@ namespace linqPractice
     // ==================================================
     // 👨‍💼 MANAGER — Extends FullTimeEmployee + Adds Department
     // ==================================================
-    public class Manager : FullTimeEmployee
+    public class Manager : FullTimeEmployee,IWork
     {
         public string Department { get; set; }
 

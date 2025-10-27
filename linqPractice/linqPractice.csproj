@@ -62,7 +62,7 @@
     <Compile Include="ParallelFileIODemo.cs" />
     <Compile Include="PerformanceComparisonDemo.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="PropertiesAndIndexersDemo.cs" />
+    <Compile Include="PropertiesAndIndexersDemo\PropertiesAndIndexersDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValueVsReferenceDemo\ValueVsReferenceDemo.cs" />
   </ItemGroup>
@@ -81,7 +81,9 @@
     <None Include="MemoryAllocationDemo\README.markdown" />
     <None Include="NullableTypesDemo\README.markdown" />
     <None Include="OOPDemo\README.markdown" />
+    <None Include="PropertiesAndIndexersDemo\README.markdown" />
     <None Include="ValueVsReferenceDemo\README.markdown" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
