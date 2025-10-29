@@ -82,7 +82,6 @@
     <None Include="NullableTypesDemo\README.markdown" />
     <None Include="OOPDemo\README.markdown" />
     <None Include="PropertiesAndIndexersDemo\README.markdown" />
-    <None Include="README.markdown" />
     <None Include="ValueVsReferenceDemo\README.markdown" />
   </ItemGroup>
   <ItemGroup />
