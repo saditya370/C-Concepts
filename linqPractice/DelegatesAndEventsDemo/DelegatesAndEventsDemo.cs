@@ -123,38 +123,38 @@ namespace linqPractice
 
         // ===================== 🌡️ EVENT EXAMPLE 1 =====================
         // Demonstrates using events for a temperature threshold system.
-        public class TemperatureMonitor
-        {
-            // Define delegate type for event
-            public delegate void ThresholdReachedHandler(double temperature);
-
-            // Declare event (based on the delegate)
-            public event ThresholdReachedHandler OnThresholdReached;
-
-            private const double Threshold = 50.0;
-
-            public void CheckTemperature(double temp)
+            public class TemperatureMonitor
             {
-                Console.WriteLine($"[Monitor] Temperature: {temp}°C");
-                if (temp > Threshold)
+                // Define delegate type for event
+                public delegate void ThresholdReachedHandler(double temperature);
+
+                // Declare event (based on the delegate)
+                public event ThresholdReachedHandler OnThresholdReached;
+
+                private const double Threshold = 50.0;
+
+                public void CheckTemperature(double temp)
                 {
-                    Console.WriteLine("⚠️  Threshold exceeded!");
-                    if (OnThresholdReached != null)
-                        OnThresholdReached(temp); // Trigger event
+                    Console.WriteLine($"[Monitor] Temperature: {temp}°C");
+                    if (temp > Threshold)
+                    {
+                        Console.WriteLine("⚠️  Threshold exceeded!");
+                        if (OnThresholdReached != null)
+                            OnThresholdReached(temp); // Trigger event
+                    }
                 }
             }
-        }
 
-        // Event Handlers (Subscribers)
-        public static void AlertEmail(double temp)
-        {
-            Console.WriteLine($"[Email Alert] Temperature {temp}°C — Sending email notification...");
-        }
+            // Event Handlers (Subscribers)
+            public static void AlertEmail(double temp)
+            {
+                Console.WriteLine($"[Email Alert] Temperature {temp}°C — Sending email notification...");
+            }
 
-        public static void AlertSMS(double temp)
-        {
-            Console.WriteLine($"[SMS Alert] Temperature {temp}°C — Sending text message...");
-        }
+            public static void AlertSMS(double temp)
+            {
+                Console.WriteLine($"[SMS Alert] Temperature {temp}°C — Sending text message...");
+            }
 
 
         // ===================== 💰 EVENT EXAMPLE 2 =====================
